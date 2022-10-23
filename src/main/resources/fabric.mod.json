@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ctacmi",
+  "version": "${version}",
+
+  "name": "Custom Material Item API",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "InkSoul"
+  ],
+  "contact": {
+    "homepage": "https://github.com/JustInk-Soul",
+    "sources": "https://github.com/JustInk-Soul"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "crafttech.api.material.ModInit"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
